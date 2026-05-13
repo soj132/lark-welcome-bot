@@ -5,9 +5,10 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 # --- Config ---
-APP_ID = "your_app_id"
-APP_SECRET = "your_app_secret"
-VERIFICATION_TOKEN = "your_verification_token"
+APP_ID = "cli_aa8e8364f563de15"
+APP_SECRET = "mt8PFUb75aCh8jq993Lblcxw8NHki1Do"
+VERIFICATION_TOKEN = "gLmv9matJzhWQRCSnUrgZee4pkwrOd1J
+"
 
 def get_tenant_access_token():
     url = "https://open.larksuite.com/open-apis/auth/v3/tenant_access_token/internal"
